@@ -3,3 +3,12 @@ Week3 directory :  It contains notebook in whihc you can see segmentation and cl
  Data used: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M, Geospatial.csv(It contains latitudes and longitudes).
 
 How to use : You can fork it and create a local copy and work with it using more data or for different places.
+
+finalProject.ipynb: problem is to find places around any neighborhood based on how many people have rated particular place. It used KMeans algorithm to cluster similar places 
+based on likes. 
+	Data used in notebook contains the following:
+	1)	https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M – This page provides postal codes, name of boroughs and neighborhoods.
+	2)	http://cocl.us/Geospatial_data - It contains latitudes and longitudes of the boroughs.
+	Foursqaure API – This API provides information such as nearby venues with categories, location, likes etc.
+
+
